@@ -1,0 +1,6 @@
+id,risk,probability,impact,owner,response
+R01,Equipment delivery delay,4,5,Procurement lead,Expedite vendor milestones; verify weekly production status.
+R02,Installation interface mismatch,3,4,Engineering lead,Freeze interfaces; conduct joint design review.
+R03,Cost escalation,4,4,Project manager,Review change orders and negotiate fixed-price packages.
+R04,Commissioning failure,2,5,Quality lead,Agree FAT/SAT criteria and reserve retest capacity.
+R05,Site access constraints,3,3,Site manager,Confirm access windows and staging plan.

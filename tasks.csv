@@ -1,0 +1,11 @@
+id,phase,task,duration,dependencies,start,finish,budget,progress,actual,owner,float
+A,Initiation,Requirements and charter,2,,0,2,60000,1,65000,Project manager,0
+B,Engineering,Mechanical design,4,A,2,6,140000,1,150000,Mechanical lead,0
+C,Engineering,Electrical design,4,A,2,6,120000,1,125000,Electrical lead,0
+D,Procurement,Equipment procurement,8,B;C,6,14,650000,0.65,460000,Procurement lead,0
+E,Procurement,Electrical procurement,6,C,6,12,330000,0.9,320000,Procurement lead,2
+F,Installation,Site preparation,4,B,6,10,180000,1,190000,Site manager,4
+G,Installation,Mechanical installation,4,D;F,14,18,190000,0,0,Mechanical lead,0
+H,Installation,Electrical installation,4,E;F;D,14,18,150000,0,0,Electrical lead,0
+I,Commissioning,Integrated testing,3,G;H,18,21,110000,0,0,Quality lead,0
+J,Handover,Training and acceptance,3,I,21,24,70000,0,0,Project manager,0
